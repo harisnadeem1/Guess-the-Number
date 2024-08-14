@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <section class="intro">
+        <h2>Number Guessing Game</h2>
+    </section>
+
+    <section class="header">
+        <h2 id="name"></h2>
+
+        <h3 id="score"></h3>
+    </section>
+
+
+    <section class="message">
+        <p>Lets play a game. I will generate a number between 1 to 100 and you will have to guess the number. <br>Total Score is 100. If you failed any guess your score will be deducted</p>
+    </section>
+
+
+    <section class="userinput">
+        <div id="InputArea">
+            <label for="guessInput">Guess:</label>
+            <input type="text" id="guessInput" placeholder="Enter any number 1 - 100">
+        </div>
+        <button onclick="storeNumber()">Enter</button>
+
+    </section>
+
+    <section class="status">
+        <h3 id="status"></h3>
+    </section>
+
+
+    <section class="hint">
+        <h4>Hint</h4>
+        <h4 id="hint"></h4>
+
+    </section>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>

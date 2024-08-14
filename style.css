@@ -1,0 +1,132 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: aliceblue;
+}
+
+
+
+
+.intro{
+    background-color: rgb(203, 203, 203);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0px;
+    
+}
+
+.intro h2{
+    background-color: rgb(203, 203, 203);
+
+}
+
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.header h2{
+    margin-left: 100px;
+    text-transform: uppercase;
+    font-size: 30px;
+    
+
+}
+.header h3{
+    background-color: black;
+    color: red;
+    border-radius: 16px;
+    padding: 10px 0px;
+    
+    font-size: 30px;
+    text-align: center;
+    margin-left: 550px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
+.header h3:hover{
+    font-size: 32px;
+
+}
+
+
+.message p{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    margin: 20px 130px;
+    letter-spacing: 2px;
+}
+
+
+
+.userinput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.userinput label{
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+
+}
+.userinput input {
+    font-size: 30px;
+    color: darkorchid;
+    background-color: white;
+    padding: 2px 10px;
+
+    font-weight: 600;
+
+}
+
+.userinput button {
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+    padding: 5px 80px;
+    font-weight: 600;
+    transition: 0.3s ease;
+
+}
+.userinput button:hover {
+    transform: scale(1.1);
+
+}
+
+.status{
+    margin: 10px 0px;
+    text-align: center;
+    transition: 1s ease-in;
+}
+
+
+.hint{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.hint h4{
+    margin: 0px 10px;
+    font-size: 20px;
+    color: red;
+}
+
